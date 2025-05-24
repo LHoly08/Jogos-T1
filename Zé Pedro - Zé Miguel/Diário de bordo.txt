@@ -1,0 +1,28 @@
+Diário de bordo:
+
+O jogo é inspirado no  "Head Soccer" que é um jogo de futebol 2D entre dois jogadores que no final de 5 golos o jogo termina e quem tiver 5 golos ganha.
+
+15/05/2025 
+
+-O programa foi iniciado e criado a janela, juntamente, com a introdução de um dos jogadores, uma nuvem e a bola de futebol.
+
+Ainda falta criar realidade na bola e colisões da bola com os jogadores, baliza, e bordas; Fazer o movimento dos jogadores, a finalização dos elementos do jogo por final uma música de fundo e efeito sonoro de jogo e contador de golos.
+
+20/05/2025
+
+-Finalizou-se a implementação dos elementos do jogo como jogadores, nuvens, balizas, chão e ainda foi colocada uma música de fundo.
+
+Falta ainda criar as colisões, a gravidade da bola, efeitos sonoros e contador de golos.
+
+21/05/2025
+
+- Implementou-se um temporizador para o jogo só ter uma duração de 1 minuto.
+- Tentativa de movimentação e de gravidade
+
+Falta criar gravidade e movimento funcionais, contador de pontos, colisões, por fim melhorar a estética do jogo.
+
+22/05/2025
+
+- Finalizou-se a movimentação e gravidade dos jogadores, criou-se um contador de pontos e tentamos implementar colisões.
+
+Falta implementar gravidade e colisão na bola, menus e botão para desativar o som.
