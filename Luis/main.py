@@ -48,7 +48,6 @@ class Car:
 		]
 		self.sound=True
 		
-		
 	def boostactive(self, time):
 		if time-self.innerclock_start>=2000:
 			self.boostvalue=0
@@ -565,10 +564,10 @@ car3=[
 	pg.image.load("LowRiderRtDn.png"),
 	pg.image.load("LowRiderLtUp.png"),
 	pg.image.load("LowRiderLtDn.png"),
-	0.8,
-	0.8,
-	0.8,
 	0.7,
+	0.7,
+	1,
+	0.8,
 	0,
 	0
 ]
@@ -607,6 +606,24 @@ car5=[
 	0.4,
 	0,
 	1
+]
+
+#Car6 Sprites and Stats
+car6=[
+	pg.image.load("MuscleRt.png"),
+	pg.image.load("MuscleDn.png"),
+	pg.image.load("MuscleUp.png"),
+	pg.image.load("MuscleLt.png"),
+	pg.image.load("MuscleRtUp.png"),
+	pg.image.load("MuscleRtDn.png"),
+	pg.image.load("MuscleLtUp.png"),
+	pg.image.load("MuscleLtDn.png"),
+	0.9,
+	0.8,
+	0.5,
+	0.3,
+	0,
+	0
 ]
 
 #Headlight Sprites
@@ -717,7 +734,8 @@ listcars=[
 	car2,
 	car3,
 	car4,
-	car5
+	car5,
+	car6
 ]
 
 #Car Images
@@ -726,7 +744,8 @@ selectcars=[
 	pg.image.load("F1Main.png"),
 	pg.image.load("LowRiderMain.png"),
 	pg.image.load("DriftMain.png"),
-	pg.image.load("RallyMain.png")
+	pg.image.load("RallyMain.png"),
+	pg.image.load("MuscleMain.png")
 ]
 
 #Car names
@@ -735,7 +754,8 @@ carnames=[
 	"Formula 1 Car",
 	"Low Rider",
 	"Drift Car",
-	"Rally Car"
+	"Rally Car",
+	"Muscle Car"
 ]
 
 #Stats Bar
@@ -919,7 +939,6 @@ winmenuselected=1
 winstarttime=0
 selectmenu=True
 acceleratingsound=pg.mixer.Sound("Accelerating.mp3")
-carcrash=pg.mixer.Sound("CarCrash.mp3")
 
 while GameOn:
 	for event in pg.event.get():
